@@ -1,0 +1,16 @@
+.btn-knows {
+    background-color: #0EAD69 !important;
+    color: white !important;
+}
+
+.btn-knows:hover {
+    background-color: #0e955b !important;
+}
+
+#action-dropdown, #last-updated-item {
+    padding-right: 10px;
+}
+
+a {
+    color: #0EAD69 !important;
+}
