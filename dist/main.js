@@ -5,7 +5,7 @@ import * as csvStringify from "https://cdn.jsdelivr.net/npm/csv-stringify@6.5.2/
 import {
   Grid,
   html
-} from "https://unpkg.com/gridjs?module";
+} from "https://cdn.jsdelivr.net/npm/gridjs@6.2.0/+esm";
 
 let shownSpecs = [];
 let latestSpecsFromSearch = [];
