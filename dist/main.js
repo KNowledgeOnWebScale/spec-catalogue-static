@@ -213,6 +213,7 @@ function downloadResultsAsJsonld() {
       "adms": "http://www.w3.org/ns/adms#",
       "status": "https://data.knows.idlab.ugent.be/person/office/specs#",
       "lastUpdated": "http://purl.org/spar/fabio/dateLastUpdated",
+      "ContributeAction": "office:ContributeAction",
       "agent": {
         "@type": "@id"
       },
@@ -298,7 +299,7 @@ function compareDescription(a, b) {
 
 /**
  * This function returns the highest action of an array of actions.
- * @param {Array} actions -.
+ * @param {Array} actions - The array of actions that is checked.
  * @returns {string} - The highest action.
  */
 function getHighestAction(actions) {
